@@ -10,22 +10,23 @@
 
 
 .btn {
-    /* TODO */
-
+    transition-property: padding;
+    transition-duration: 300ms;
+    transition-delay: 0s;
+    transition-timing-function: linear;
     &.ease-in {
-        /* TODO */
+
     }
 
     &.ease-out {
-        /* TODO */
-    }
+
 
     &.ease-in-out {
-        /* TODO */
+
     }
 
     &.green {
-        /* TODO */
+
     }
 
     &.animation {
