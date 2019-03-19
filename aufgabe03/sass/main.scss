@@ -13,16 +13,25 @@
     transition-property: padding;
     transition-duration: 300ms;
     transition-delay: 0s;
-    transition-timing-function: linear;
+    transition-timing-function: linear; /*verläuft gleichmäßig*/
     &.ease-in {
-
+        transition-property: padding;
+        transition-duration: 300ms;
+        transition-delay: 0s;
+        transition-timing-function: linear;
     }
 
     &.ease-out {
-
+        transition-property: padding;
+        transition-duration: 300ms;
+        transition-delay: 0s;
+        transition-timing-function: linear;
 
     &.ease-in-out {
-
+        transition-property: padding;
+        transition-duration: 300ms;
+        transition-delay: 0s;
+        transition-timing-function: linear;
     }
 
     &.green {
