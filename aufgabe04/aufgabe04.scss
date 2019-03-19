@@ -1,1 +1,15 @@
-@mixin margin
+@mixin margin (
+  $margin-top: null,
+  $margin-right: null,
+  $margin-bottom: null,
+  $margin-left: null)
+{
+  margin-top: $margin-top;
+  margin-right: $margin-right;
+  margin-bottom: $margin-bottom;
+  margin-left: $margin-left;
+  }
+
+/*z.B dann: @include margin(5px 8px 10px 14px)
+
+wenn die werte au fnull gesetzt sind, werden sie vernachlässigt, ausser man setzt neue werte ein; siehe @include*/
